@@ -1,0 +1,77 @@
+ html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;     /* horizontal center */
+  align-items: center;         /* vertical center */
+  height: 100vh !important;               /* full viewport height */
+  width: 100vw;                /* full viewport width */
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.welcome-box {
+  width: 300px;                
+  background: #f9f5ff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;    /* <-- change from center to flex-end */
+  
+  padding: 32px 24px;
+  height: 80%;                 /* box height same */
+}
+
+
+.welcome-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.welcome-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 100%;
+  background: #9333ea;
+  color: white;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #7e22ce;
+}
+
+.btn-secondary {
+  width: 100%;
+  background: #e9d5ff;
+  color: #1f2937;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: #d8b4fe;
+}

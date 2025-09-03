@@ -1,0 +1,98 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+}
+
+
+.register-card {
+  max-width: 400px;
+  width: 100%;
+  background: #f9f5ff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 1px solid #e5e7eb;
+}
+
+
+.register-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 24px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7e22ce;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #9333ea;
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.3);
+}
+
+
+.radio-group {
+  display: flex;
+  gap: 24px;
+  margin-top: 6px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.register-button.active {
+  background: #9333ea;
+  color: white;
+  cursor: pointer;
+}
+
+.register-button.active:hover {
+  background: #7e22ce;
+}
+
+.register-button.disabled {
+  background: #d8b4fe;
+  color: white;
+  cursor: not-allowed;
+} 
+
